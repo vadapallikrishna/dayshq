@@ -1,0 +1,74 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
+}
+
+.intro {
+  background: whitesmoke;
+  padding: 10px;
+}
+
+p {
+  margin: 0px;
+}
+
+.intro-title {
+  font-style: italic;
+  color: #373fff;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 8px;
+}
+
+.card {
+  background: coral;
+  font-size: 44px;
+  padding: 10px;
+  border-radius: 6px;
+  width: 300px;
+  
+}
+
+.card > p {
+  margin: 5px;
+  
+}
+
+.card > .brand {
+  font-size: 22px;
+  text-align: right;
+  color: white;
+}
+
+form > *{
+  margin-top: 10px;
+}
+
+.card-container {
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.join-form {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 24px;
+}
+
+button {
+  background:lightgrey;
+  border: 1px solid grey;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 24px;
+  border-top: 1px solid black;
+  margin: 15px;
+  padding: 10px;
+}
